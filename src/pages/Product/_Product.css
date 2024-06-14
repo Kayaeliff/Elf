@@ -1,0 +1,29 @@
+.product__back-button {
+  padding-left: 2.4rem;
+  margin: 1.6rem 0 2.4rem 0;
+  opacity: 0.5;
+  align-self: flex-start;
+
+  @media (min-width: 48rem) {
+    margin: 3.2rem 0 2.4rem 0;
+    padding-left: 4rem;
+  }
+
+  @media (min-width: 64rem) {
+    margin: 8rem 0 5.6rem 0;
+    padding-left: 17.5vw;
+  }
+
+  @media (min-width: 75rem) {
+    padding-left: 20vw;
+  }
+}
+
+.product__product-categories,
+.product__claim {
+  margin-bottom: 12rem;
+
+  @media (min-width: 64rem) {
+    margin-bottom: 18rem;
+  }
+}

@@ -1,0 +1,13 @@
+.product-page__product-list,
+.product-page__product-categories,
+.product-page__claim {
+  margin-bottom: 12rem;
+}
+
+.product-page__header {
+  margin-bottom: 6.4rem;
+
+  @media (min-width: 64rem) {
+    margin-bottom: 16rem;
+  }
+}

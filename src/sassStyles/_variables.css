@@ -1,0 +1,14 @@
+:root {
+    --color-brand: #d87d4a;
+    --color-brand-light: #fbaf85;
+    --color-text-light: #ffffff;
+    --color-element-light: #f1f1f1;
+    --color-element-dark: #000000;
+  
+    --breakpoint-mobile: 37.5em;
+    --breakpoint-tablet: 48em;
+    --breakpoint-desktop: 90em;
+    --breakpoint-desktop-large: 120rem;
+    --breakpoint-desktop-xlarge: 160rem;
+  }
+  

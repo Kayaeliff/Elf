@@ -1,0 +1,45 @@
+html {
+  font-family: "Manrope Variable", sans-serif;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  background-color: var(--color-text-light);
+}
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-element-dark);
+  
+  transition-duration: 0.25s;
+}
+
+label {
+  cursor: pointer;
+}
+
+img {
+  color: var(--color-element-dark);
+  font-style: italic;
+}

@@ -1,0 +1,19 @@
+.toast-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+}
+
+@media screen and (min-width: 1024px) {
+  .toast-list {
+    bottom: 4rem;
+    right: 4rem;
+    transform: unset;
+    left: unset;
+  }
+}
